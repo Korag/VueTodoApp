@@ -1,0 +1,31 @@
+# GraphQL schema
+# https://gqlgen.com/getting-started/
+
+type Todo {
+  id: ID!
+  text: String!
+  done: Boolean!
+}
+
+type Query {
+  todos: [Todo!]!
+}
+
+input TodoAddNew {
+  text: String!
+}
+
+input TodoUpdateExisting {
+  id: String!
+  done: Boolean!
+}
+
+input TodoDeleteExisting {
+  id: String!
+}
+
+type Mutation {
+  createTodo(input: TodoAddNew!): Todo!
+  updateTodo(input: TodoUpdateExisting!): Todo
+  deleteTodo(input: TodoDeleteExisting!): Todo
+}
