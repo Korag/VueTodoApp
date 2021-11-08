@@ -9,10 +9,13 @@ The designed API uses GraphQL and was partially generated with gqlgen based on a
 The Todo client application was written using the Vue.js framework and Vuetify, as well as Vue Apollo. 
 
 Empty Todo list:
+
 ![alt text](https://github.com/Korag/DocumentationImages/blob/master/VueTodoApp/VueTodoApp_1.PNG "Empty Todo list")
 
 Add new Todo form:
+
 ![alt text](https://github.com/Korag/DocumentationImages/blob/master/VueTodoApp/VueTodoApp_2.PNG "Add new Todo")
 
 Todos list:
+
 ![alt text](https://github.com/Korag/DocumentationImages/blob/master/VueTodoApp/VueTodoApp_3.PNG "List saved Todos")
